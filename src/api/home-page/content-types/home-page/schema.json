@@ -43,7 +43,7 @@
       "type": "string",
       "required": true
     },
-    "homePageSections": {
+    "portfolioPreviews": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -65,8 +65,7 @@
         "experience.experience"
       ]
     },
-    "prefessionalPresence": {
-      "displayName": "presence",
+    "socials": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -75,6 +74,14 @@
         }
       },
       "component": "professional-presence.presence"
+    },
+    "experienceMainTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

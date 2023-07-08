@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_tri_column_image_tri_column_images",
+  "info": {
+    "displayName": "tri-column-image",
+    "icon": "dice-three",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.image",
+      "required": true
+    },
+    "image2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.image",
+      "required": true
+    },
+    "image3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.image",
+      "required": true
+    }
+  }
+}

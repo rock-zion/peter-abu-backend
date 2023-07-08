@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_persona_personas",
+  "info": {
+    "displayName": "persona",
+    "icon": "person-booth",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtext": {
+      "type": "text"
+    },
+    "habits": {
+      "type": "richtext"
+    },
+    "needsAndExpectations": {
+      "type": "richtext"
+    },
+    "motivations": {
+      "type": "richtext"
+    },
+    "frustrations": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string"
+    },
+    "education": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "profileImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.image"
+    }
+  }
+}

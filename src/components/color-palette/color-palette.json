@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_color_palette_color_palettes",
+  "info": {
+    "displayName": "color-palette",
+    "icon": "palette"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title-and-body.title-and-body"
+    }
+  }
+}
