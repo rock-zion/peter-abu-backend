@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_professional_presence_presences",
+  "info": {
+    "displayName": "presence",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "displayName": "presence-links",
+      "type": "component",
+      "repeatable": true,
+      "component": "links.presence-links"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

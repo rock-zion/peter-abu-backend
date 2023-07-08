@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_portfolio_roles_roles",
+  "info": {
+    "displayName": "role",
+    "icon": "certificate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "style": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    }
+  }
+}
