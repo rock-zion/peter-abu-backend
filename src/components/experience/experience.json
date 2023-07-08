@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_experience_experiences",
+  "info": {
+    "displayName": "experience",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

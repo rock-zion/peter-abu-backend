@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_links_presence_links",
+  "info": {
+    "displayName": "presence-links",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
