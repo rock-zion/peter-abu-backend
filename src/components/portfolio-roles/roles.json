@@ -7,9 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "style": {
-      "type": "text"
-    },
     "title": {
       "type": "text"
     }
