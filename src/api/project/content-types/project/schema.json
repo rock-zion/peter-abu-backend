@@ -23,21 +23,34 @@
     "shortDescription": {
       "type": "string"
     },
-    "titleAndBody": {
-      "displayName": "title-and-body",
-      "type": "component",
-      "repeatable": false,
-      "component": "title-and-body.title-and-body"
-    },
     "projectDetails": {
       "type": "dynamiczone",
       "components": [
         "persona.persona",
-        "title-and-body.title-and-body",
         "tri-column-image.tri-column-image",
         "duo-column-image.duo-column-image",
         "color-palette.color-palette"
       ]
+    },
+    "timeline": {
+      "type": "integer"
+    },
+    "role": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio-roles.roles"
+    },
+    "designedFor": {
+      "type": "enumeration",
+      "enum": [
+        "Mobile",
+        "Web"
+      ]
+    },
+    "toolsUsed": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio-roles.roles"
     }
   }
 }

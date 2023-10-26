@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_project_main_title_block_project_main_title_blocks",
+  "info": {
+    "displayName": "project-main-title-block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -5,11 +5,5 @@
     "icon": "palette"
   },
   "options": {},
-  "attributes": {
-    "color": {
-      "type": "component",
-      "repeatable": true,
-      "component": "title-and-body.title-and-body"
-    }
-  }
+  "attributes": {}
 }
