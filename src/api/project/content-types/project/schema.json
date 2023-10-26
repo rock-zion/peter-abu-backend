@@ -31,6 +31,26 @@
         "duo-column-image.duo-column-image",
         "color-palette.color-palette"
       ]
+    },
+    "timeline": {
+      "type": "integer"
+    },
+    "role": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio-roles.roles"
+    },
+    "designedFor": {
+      "type": "enumeration",
+      "enum": [
+        "Mobile",
+        "Web"
+      ]
+    },
+    "toolsUsed": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio-roles.roles"
     }
   }
 }
