@@ -12,45 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
     "image": {
       "type": "component",
       "repeatable": false,
       "component": "images.image"
     },
-    "shortDescription": {
-      "type": "string"
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project-main-title-block.project-main-title-block"
     },
-    "projectDetails": {
+    "body": {
       "type": "dynamiczone",
       "components": [
-        "persona.persona",
-        "tri-column-image.tri-column-image",
-        "duo-column-image.duo-column-image",
-        "color-palette.color-palette"
+        "project-text-block.project-text-block"
       ]
-    },
-    "timeline": {
-      "type": "integer"
-    },
-    "role": {
-      "type": "component",
-      "repeatable": true,
-      "component": "portfolio-roles.roles"
-    },
-    "designedFor": {
-      "type": "enumeration",
-      "enum": [
-        "Mobile",
-        "Web"
-      ]
-    },
-    "toolsUsed": {
-      "type": "component",
-      "repeatable": true,
-      "component": "portfolio-roles.roles"
     }
   }
 }
