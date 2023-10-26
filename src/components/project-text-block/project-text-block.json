@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_text_block_project_text_blocks",
+  "info": {
+    "displayName": "project-text-block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "soft_title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "json"
+    },
+    "body_dark": {
+      "type": "json"
+    }
+  }
+}

@@ -23,17 +23,10 @@
     "shortDescription": {
       "type": "string"
     },
-    "titleAndBody": {
-      "displayName": "title-and-body",
-      "type": "component",
-      "repeatable": false,
-      "component": "title-and-body.title-and-body"
-    },
     "projectDetails": {
       "type": "dynamiczone",
       "components": [
         "persona.persona",
-        "title-and-body.title-and-body",
         "tri-column-image.tri-column-image",
         "duo-column-image.duo-column-image",
         "color-palette.color-palette"
